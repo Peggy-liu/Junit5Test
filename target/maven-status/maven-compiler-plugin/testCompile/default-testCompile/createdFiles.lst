@@ -1,9 +1,9 @@
-com/example/maven/CalculatorAddTests.class
-com/example/maven/CalculatorAddTests$RepeatedTest1.class
+com/example/maven/CalculatorAddTest.class
 com/example/maven/ParameterizedDemoTest.class
 com/example/maven/OrderAndTestInstanceTest$SingleInstance.class
 com/example/maven/FastTest.class
+com/example/maven/CalculatorAddTest$PositiveCases.class
 com/example/maven/OrderAndTestInstanceTest.class
-com/example/maven/CalculatorAddTests$PositiveCases.class
+com/example/maven/CalculatorAddTest$RepeatedTest1.class
 com/example/maven/tempDirectoryDemoTest.class
-com/example/maven/CalculatorAddTests$ExceptionalCases.class
+com/example/maven/CalculatorAddTest$ExceptionalCases.class

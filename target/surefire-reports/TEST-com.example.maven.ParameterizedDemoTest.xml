@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.maven.ParameterizedDemoTest" time="0.319" tests="26" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.maven.ParameterizedDemoTest" time="0.495" tests="26" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/test-classes:/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/classes:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/liupeiqi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/liupeiqi/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:"/>
+    <property name="java.class.path" value="/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/test-classes:/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/classes:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/liupeiqi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/liupeiqi/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/mockito/mockito-core/3.5.10/mockito-core-3.5.10.jar:/Users/liupeiqi/.m2/repository/net/bytebuddy/byte-buddy/1.10.13/byte-buddy-1.10.13.jar:/Users/liupeiqi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.13/byte-buddy-agent-1.10.13.jar:/Users/liupeiqi/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AU"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/surefire/surefirebooter7511418107184455562.jar /Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/surefire 2020-09-15T17-24-25_859-jvmRun1 surefire9441214873795721956tmp surefire_08432883040061307452tmp"/>
+    <property name="sun.java.command" value="/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/surefire/surefirebooter2096766920971389957.jar /Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/surefire 2020-09-19T18-59-17_821-jvmRun1 surefire4749080896696556053tmp surefire_015226549991265542528tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/test-classes:/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/classes:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/liupeiqi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/liupeiqi/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/test-classes:/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/classes:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/liupeiqi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/liupeiqi/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/liupeiqi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/liupeiqi/.m2/repository/org/mockito/mockito-core/3.5.10/mockito-core-3.5.10.jar:/Users/liupeiqi/.m2/repository/net/bytebuddy/byte-buddy/1.10.13/byte-buddy-1.10.13.jar:/Users/liupeiqi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.13/byte-buddy-agent-1.10.13.jar:/Users/liupeiqi/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/liupeiqi"/>
     <property name="user.language" value="en"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/surefire/surefirebooter7511418107184455562.jar"/>
+    <property name="surefire.real.class.path" value="/Users/liupeiqi/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/maven/target/surefire/surefirebooter2096766920971389957.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
@@ -54,30 +54,30 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="testCase1{int}[1]" classname="com.example.maven.ParameterizedDemoTest" time="0.085"/>
+  <testcase name="testCase1{int}[1]" classname="com.example.maven.ParameterizedDemoTest" time="0.12"/>
   <testcase name="testCase1{int}[2]" classname="com.example.maven.ParameterizedDemoTest" time="0.002"/>
-  <testcase name="testCase1{int}[3]" classname="com.example.maven.ParameterizedDemoTest" time="0.002"/>
-  <testcase name="testCase1{int}[4]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
-  <testcase name="testCase1{int}[5]" classname="com.example.maven.ParameterizedDemoTest" time="0.002"/>
-  <testcase name="testCase2{String}[1]" classname="com.example.maven.ParameterizedDemoTest" time="0.003"/>
-  <testcase name="testCase2{String}[2]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
+  <testcase name="testCase1{int}[3]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
+  <testcase name="testCase1{int}[4]" classname="com.example.maven.ParameterizedDemoTest" time="0.002"/>
+  <testcase name="testCase1{int}[5]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
+  <testcase name="testCase2{String}[1]" classname="com.example.maven.ParameterizedDemoTest" time="0.004"/>
+  <testcase name="testCase2{String}[2]" classname="com.example.maven.ParameterizedDemoTest" time="0.003"/>
   <testcase name="testCase2{String}[3]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
   <testcase name="testCase3{int}[1]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
   <testcase name="testCase3{int}[2]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
   <testcase name="testCase3{int}[3]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
   <testcase name="testCase3{int}[4]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
-  <testcase name="testCase3{int}[5]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
+  <testcase name="testCase3{int}[5]" classname="com.example.maven.ParameterizedDemoTest" time="0.002"/>
   <testcase name="testCase3{int}[6]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
   <testcase name="testCase3{int}[7]" classname="com.example.maven.ParameterizedDemoTest" time="0.002"/>
   <testcase name="testCase3{int}[8]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
   <testcase name="testCase3{int}[9]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
   <testcase name="testCase3{int}[10]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
-  <testcase name="testCase4{int, int, int}[1]" classname="com.example.maven.ParameterizedDemoTest" time="0.004"/>
+  <testcase name="testCase4{int, int, int}[1]" classname="com.example.maven.ParameterizedDemoTest" time="0.006"/>
   <testcase name="testCase4{int, int, int}[2]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
   <testcase name="testCase4{int, int, int}[3]" classname="com.example.maven.ParameterizedDemoTest" time="0.002"/>
   <testcase name="testCase5{int, int, int}[1]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
   <testcase name="testCase5{int, int, int}[2]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
   <testcase name="testCase5{int, int, int}[3]" classname="com.example.maven.ParameterizedDemoTest" time="0.002"/>
-  <testcase name="testCase5{int, int, int}[4]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
+  <testcase name="testCase5{int, int, int}[4]" classname="com.example.maven.ParameterizedDemoTest" time="0.002"/>
   <testcase name="testCase5{int, int, int}[5]" classname="com.example.maven.ParameterizedDemoTest" time="0.001"/>
 </testsuite>

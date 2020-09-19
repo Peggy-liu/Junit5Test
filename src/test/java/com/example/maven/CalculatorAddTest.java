@@ -28,7 +28,7 @@ import com.example.maven.math.TooLargeNumbers;
  */
 
 @Tag(value="fast")
-public class CalculatorAddTests 
+public class CalculatorAddTest 
 {
     private Calculator calculator = new Calculator();
     
